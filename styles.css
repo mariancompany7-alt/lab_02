@@ -1,0 +1,19 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    background-color: pink;
+}
+
+li {
+    background-color: rgb(207, 138, 149);
+    color: white;
+    list-style-position: inside;
+}
+
+div {
+    background-color: rgb(139, 73, 84);
+    color: rgb(255, 255, 255);
+}
