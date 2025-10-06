@@ -1,23 +1,45 @@
 * {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.arrow-right {
-    list-style-image: url(arrow-right_16.png);
+li::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(cross.png);
+    background-size: contain;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
-#winter {
-    list-style-image: url(snowflake_16.png);
+.checked {
+    text-decoration: line-through;
+    list-style-image: url(check-box.png);
+    background-color: rgb(190, 190, 190);
+    padding: 10px;
+    align-content: center;
+    list-style-position: inside;
 }
 
-#spring {
-    list-style-image: url(leaf_g_16.png);
+.unchecked {
+    list-style-image: url(check-box-empty.png);
+    background-color: rgb(129, 173, 194);
+    padding: 10px;
+    align-content: center;
+    list-style-position: inside;
 }
 
-#summer {
-    list-style-image: url(sun_16.png);
+#task-list {
+    width: 320px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
 }
 
-#autumn {
-    list-style-image: url(leaf_y_16.png);
+h1 {
+    text-align: center;
+    color: #333333;
 }
